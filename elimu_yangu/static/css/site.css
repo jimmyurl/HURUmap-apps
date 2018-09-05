@@ -160,11 +160,12 @@ footer {
 */
 .landing-main {
     background: url("/static/img/bg.jpg");
-    height: 400px;
+    height: 500px;
     padding-top: 100px;
     color: #ffffff;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .tagline {

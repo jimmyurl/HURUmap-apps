@@ -19,7 +19,8 @@
                       <a href="http://www.mediamonitoringafrica.org/" target="_blank" rel="noopener">Media Monitoring Africa</a> for making census data more understandable.</p>
           <p class="small">This site is a project of <strong><a
                   href="http://nukta.co.tz" target="_blank">Nukta Africa</a></strong> and <strong><a
-                  href="https://codeforafrica.org" target="_blank">Code for Africa</a></strong>. All content is released under a
+                  href="https://codeforafrica.org" target="_blank">Code for Africa</a></strong>, and is made possible through the support from <strong><a
+                  href="https://worldbank.org" target="_blank">World Bank</a></strong> All content is released under a
               <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons 4 Attribution license</a>. Reuse it to help empower your own community. The code is available on
               <a href="{{ HURUMAP.github_url }}" target="_blank">GitHub</a> and data is available on <a
                       href="{{ HURUMAP.openafrica_url }}" target="_blank">​openAFRICA​</a>.</p>
@@ -31,20 +32,25 @@
               	<ul class="list-group">
               		<li class="list-group-item"><a href="https://tanzania.hurumap.org/">HURUmap Tanzania</a></li>
                   <li class="list-group-item"><a href="https://pesacheck.org" target="_blank">PesaYetu</a></li>
-              		<li class="list-group-item"><a href="http://www.opendata.go.tz">Open Data TZ</a></li>
               	</ul>
-                <div>
-                  <a href="http://nukta.co.tz/" target="_blank" rel="noopener">
-                      <img style="width: 240px; height: 60px" src="{{ STATIC_URL }}img/logos/nukta.png" alt="Nukta Africa"></a>
+                <div>{% trans 'Join our community' %}</div>
+                <ul class="list-group">
+                  <li class="list-group-item"><a href="https://facebook.com/HacksHackersAfrica">HacksHackers Africa</a></li>
+                </ul>
+
+                <div style="margin-top: -10px;margin-left: -15px;">
+                  <a href="http://www.worldbank.org/">
+                    <img style="max-height: 100px" src="{{ STATIC_URL }}img/logos/world_bank_white.png" title="The World Bank" alt="The World Bank"></a>
                 </div>
             </div>
             <div class="col-xs-6">
-              <div>{% trans 'Join our community' %}</div>
-              <ul class="list-group">
-                <li class="list-group-item"><a href="https://facebook.com/HacksHackersAfrica">HacksHackers Africa</a></li>
-              </ul>
 
-              <div style="padding-top: 10px;">
+              <div>
+
+                <a href="http://nukta.co.tz/" target="_blank" rel="noopener">
+                    <img style="width: 240px; height: 60px" src="{{ STATIC_URL }}img/logos/nukta.png" alt="Nukta Africa"></a>
+              </div>
+              <div style="padding-top: 25px;">
                 <a href="https://codefortanzania.org/" target="_blank" rel="noopener">
                   <img class="img-fluid img-thumbnail" src="{% static 'img/logos/cftanzania-white.png' %}" />
                 </a>
